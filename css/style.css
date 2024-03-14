@@ -1,10 +1,12 @@
 body {
     font-family: "Poppins";
 }
-p{
+
+p {
     line-height: 1.4;
     letter-spacing: 1px;
 }
+
 img {
     width: 100%;
 }
@@ -151,65 +153,67 @@ header ul li a {
     font-weight: 700;
 }
 
-.sw-content{
+.sw-content {
     margin: auto;
 }
 
- 
 
-.pink{
+
+.pink {
     background-color: #dfc8e7;
     width: 100%;
 }
 
-.bullets ul{
+.bullets ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin: 35px auto;
     padding-bottom: 50px;
 }
 
-.bullets ul li img{
+.bullets ul li img {
     width: 120px;
     margin: auto;
     display: block;
 }
 
-.title{
+.title {
     text-align: center;
     padding-top: 25px;
     font-size: 30px;
 }
 
-.bullets ul li p{
+.bullets ul li p {
     text-align: center;
     font-weight: 600;
 }
 
-.bullets p:nth-child(2){
+.bullets p:nth-child(2) {
     text-align: center;
     width: 70%;
     margin: auto;
 }
-.AMPK{
+
+.AMPK {
     padding-bottom: 25px;
 }
-.AMPK p span{
+
+.AMPK p span {
     font-weight: 700;
-    font-size: 18px; 
+    font-size: 18px;
 }
 
-.AMPK p{
+.AMPK p {
     margin-bottom: 10px;
 }
 
-.AMPK-div{
+.AMPK-div {
     display: flex;
     align-items: center;
 
 }
 
-video{
+video {
     width: 50%;
     margin: auto;
     margin-left: 10px;
@@ -225,7 +229,7 @@ video{
 div.ingredients-img {
     display: flex;
     align-items: center;
-    justify-content: space-evenly; 
+    justify-content: space-evenly;
 }
 
 div.ingredients-text1 h3,
@@ -262,7 +266,7 @@ div.ingredients-text4 {
 }
 
 
-.ingredients-img img{
+.ingredients-img img {
     width: 20%;
 }
 
@@ -281,9 +285,9 @@ div.ingredients-text4 {
     background-color: white;
     color: black;
     border-radius: 15px;
-  }
-  
-  .a {
+}
+
+.a {
     display: none;
     margin: 0;
     padding: 15px;
@@ -296,78 +300,288 @@ div.ingredients-text4 {
 
     border-bottom-right-radius: 15px;
 
-  }
-  .faq-content {
+}
+
+.faq-content {
     border: black 1px solid;
     margin: 20px auto;
     border-radius: 15px;
     background-color: white;
 
 
-  }
-  .faq-div {
+}
+
+.faq-div {
     padding: 25px;
     color: #005280;
-  }
-  
-  .faq {
+}
+
+.faq {
     /* background-color: #ccdee8; */
     /* margin: 0; */
     padding: 25px 0;
-  }
-  
+}
 
 
-  /* reviews */
 
-  .rev-div{
+/* reviews */
+
+.rev-div {
     border: 1.5px solid black;
     display: grid;
     grid-template-columns: 400px 1fr;
     border-radius: 25px;
     margin: 25px 0;
-  }
-  .flex{
+}
+
+.flex {
     display: flex;
     align-items: center;
 
-  }
+}
 
-  .flex img{
+.flex img {
     width: 35px;
-  }
+}
 
-  .name{
+.name {
     font-size: 18px;
     font-weight: 700;
-  }
+}
 
-  /* .reviews-right{
+/* .reviews-right{
     border-left: 1.5px solid black;
     margin: 0 auto; 
   } */
 
-  .reviews-left{
+.reviews-left {
     margin: auto;
-  }
+}
 
-  .reviews-right{
+.reviews-right {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 25px; 
+    padding: 25px;
     border-left: 1px solid black;
-  }
+}
 
-  .date{
+.date {
     font-weight: 600;
-  }
+    min-width: 15%;
+}
 
-  .rec{
+.rec {
     font-size: 12px;
     font-weight: 500;
-  }
+}
 
-  .reviews{
+.reviews {
     padding-bottom: 25px;
+}
+
+.mySwiper1 .swiper-slide {
+    width: 100%;
+    height: initial;
+
+
+}
+
+
+
+.mySwiper1 .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    border-radius: 48px;
+    object-fit: cover;
+    border: 2px solid #000;
+    border-radius: 48px;
+}
+
+.mySwiper1 {
+    width: 80%;
+    margin: 50px auto;
+    padding: 50px 0!important;
+
+}
+
+.product {
+    position: relative;
+    width: 60%;
+    margin: auto;
+}
+
+.product-content {
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    width: 50%;
+}
+
+.sw2{
+    width: 80%;
+    margin: auto; 
+}
+
+
+
+
+/* order */
+
+.order {
+    display: grid;
+    grid-template-columns: 700px 1fr;
+    gap: 50px;
   }
+  
+ 
+  /* label{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  } */
+  
+  .radio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .radio-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .free {
+    text-align: center;
+    border: 2px dashed #005280;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 7px 0;
+  }
+  
+  button {
+    background-color: #ee5208;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 20px;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  .sw-div {
+    margin: auto 0;
+  }
+  
+  .order-div h3 {
+    font-size: 23px;
+    text-align: center;
+    color: #005280;
+    font-weight: 800;
+    margin-bottom: 0;
+  }
+  
+  .order-radio {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .radio {
+    padding: 10px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+    font-weight: 500;
+  }
+  
+  .yellow {
+    background-color: #f5c14f;
+  }
+  
+  label p {
+    margin-left: 5px;
+  }
+  
+  label p span {
+    color: #f26522;
+    font-weight: 700;
+  }
+  
+  input[type="radio"] {
+    accent-color: red;
+  }
+  .order {
+    margin: 50px auto;
+  }
+  .order-stars {
+    display: flex;
+    align-items: center;
+  }
+  
+  .order-stars img {
+    width: 100px;
+  }
+  
+  .order-stars p {
+    margin: 0;
+  }
+  
+  .order-bullets {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px auto;
+  }
+  .order-content {
+    margin: auto;
+    text-align: center;
+  }
+  .order-content img {
+    width: 80px;
+  }
+  
+  .order-content p {
+    margin: 0;
+    font-size: 14px;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+  }   
+  form input, select{
+    margin: 5px 0;
+    padding: 5px;
+  }
+   
+  /* footer */
+  footer div.links {
+    text-align: center;
+    margin: 15px;
+  }
+  
+  footer a {
+    margin: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+  }
+  
+  footer p {
+    text-align: center;
+  }
+  
+  footer p.disclaimer {
+    width: 70%;
+    margin: 10px auto;
+    letter-spacing: 0;
+    line-height: 1;
+    font-size: 14px;
+  }
+  
