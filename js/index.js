@@ -1,17 +1,8 @@
 let img = document.getElementsByClassName("img-ingr");
 
 const onClick1 = (e) => {
-  if (
-    e.target.className == "q" &&
-    e.target.parentElement.children[1].style.display == "none"
-  ) {
-    e.target.parentElement.children[1].style.display = "block";
-  } else if (
-    e.target.parentElement.children[1].style.display == "block" &&
-    e.target.parentElement.children[1].className == "a"
-  ) {
-    e.target.parentElement.children[1].style.display = "none";
-  }
+  console.log(e.target)
+  if
 };
 
 for (let index = 0; index < img.length; index++) {
