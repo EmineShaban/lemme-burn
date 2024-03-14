@@ -10,14 +10,21 @@
         @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
     </style>
     <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
         div.image-logo-1 {
             display: flex;
             justify-content: center;
+             
+            background-color: #e0c8e7;
         }
-        
-        div.image-product {
-            margin: 5vh;
-            width: 50%;
+        img{
+            width: 10%;
+        }
+        div.image-product { 
+            width: 30%;
         }
         
         div.image-product img {
@@ -39,18 +46,18 @@
 </head>
 
 <body>
-    <div class="image-logo-1">
-        <img src="../images/logo.jpg" class="logo-1" />
+    <div class="image-logo-1" >
+        <img src="../images/logo.webp" class="logo-1" />
     </div>
     <hr />
     <div class="div-wrapper">
 
         <div class="image-product">
-            <img src="../images/section3.jpg" class="product" />
+            <img src="../images/product.jpg" class="product" />
         </div>
 
         <div class="header-name">
-            <p class="name-product">DERMA E Advanced Peptides and Collagen Moisturizer</p>
+            <p class="name-product">Lemme Burn</p>
             <p class="name-product-text">Thank you for your order, it has been successfully received!</p>
             <p class="name-product-text-bold">Order details: </p>
             <p class="name-product-text"><i class="far fa-check-circle"></i> Order Number: #524956</p>
