@@ -443,7 +443,10 @@ div.ingredients-text4 {
     flex-direction: row;
     justify-content: space-between;
   } */
-  
+  .prod{
+    width: 80%;
+    margin: auto;
+  }
   .radio {
     display: flex;
     flex-direction: row;
@@ -466,8 +469,8 @@ div.ingredients-text4 {
   }
   
   button {
-    background-color: #ee5208;
-    color: white;
+    background-color: #c5ff89;
+    color: black;
     border: none;
     padding: 12px 25px;
     font-size: 20px;
@@ -476,6 +479,7 @@ div.ingredients-text4 {
     margin-bottom: 20px;
     cursor: pointer;
     margin-top: 15px;
+    font-weight: 800;
   }
   
   .sw-div {
@@ -483,11 +487,12 @@ div.ingredients-text4 {
   }
   
   .order-div h3 {
-    font-size: 23px;
+    font-size: 35px;
     text-align: center;
-    color: #005280;
+    color: #c995db;
     font-weight: 800;
-    margin-bottom: 0;
+    margin-bottom: 10px;
+
   }
   
   .order-radio {
