@@ -10,7 +10,9 @@ p {
 img {
     width: 100%;
 }
-
+.orange{
+    color: #f26522;
+}
 .pack-color {
     background-color: #be80d3;
 }
@@ -477,18 +479,21 @@ div.ingredients-text4 {
     margin: auto;
 }
 
-.radio {
+.radio-2 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
 }
-
+ 
 .radio-div {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+.space{
+    display: flex;
+    justify-content: space-between;
+}
 .free {
     text-align: center;
     border: 2px dashed #005280;
@@ -550,6 +555,7 @@ label p span {
 
 input[type="radio"] {
     accent-color: red;
+    margin: auto;
 }
 
 .order {
