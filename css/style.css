@@ -358,7 +358,7 @@ div.ingredients-text4 {
 .rev-div {
     border: 1.5px solid black;
     display: grid;
-    grid-template-columns: 400px 1fr;
+    grid-template-columns: 300px 1fr;
     border-radius: 25px;
     margin: 25px 0;
 }
